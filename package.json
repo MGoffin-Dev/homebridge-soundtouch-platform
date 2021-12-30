@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-soundtouch-platform",
-  "version": "1.4.1",
+  "name": "homebridge-soundtouch-platform_MGO",
+  "version": "1.4.2",
   "description": "Homebridge SoundTouch platform",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bbriatte/homebridge-soundtouch-platform.git"
+    "url": "git://github.com/MGoffin-Dev/homebridge-soundtouch-platform.git"
   },
   "engines": {
     "homebridge": ">=1.0.0"
   },
-  "author": "bbriatte",
+  "author": "MGoffin-Dev",
   "license": "BSD",
   "dependencies": {
     "homebridge-base-platform": "^1.4.2",
