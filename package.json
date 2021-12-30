@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-soundtouch-platform_MGO",
+  "name": "homebridge-soundtouch-platform-mgo",
   "version": "1.4.2",
-  "description": "Homebridge SoundTouch platform",
+  "description": "Homebridge SoundTouch platform MGO",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "keywords": [
