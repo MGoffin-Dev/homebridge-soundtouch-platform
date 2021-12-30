@@ -120,9 +120,7 @@ async function _availableSources(api: API, deviceName: string, accessorySources?
     const sources = await api.getSources();
     const localSources = sources.items.filter((src) => src.isLocal);
     return localSources.map((ls) => {
-        if(log !== undefined) {
-            log(`[${deviceName}] Found local source '${ls.source}' with account '${ls.sourceAccount || ''}' on device`);
-        }
+        log(`[${deviceName}] Found local source '${ls.source}' with account '${ls.sourceAccount || ''}' on device`);
         const sourceConfig = _findConfig((p) => p.source === ls.source && (p.account !== undefined ? p.account === ls.sourceAccount : true), accessorySources, globalSources) || {source: ls.source};
         return {
             name: sourceConfig.name || `${deviceName} ${ls.name ? ls.name : stringUpperCaseFirst(sourceConfig.source)}`,
